@@ -57,6 +57,7 @@ public class Task3_ProducerConsumer {
         consumer.start();
     }
 
+    @SuppressWarnings("unused")
     private static void producerConsumerProblem() {
         final List<Integer> buffer = new ArrayList<>();
         Thread producer = new Thread(() -> {
